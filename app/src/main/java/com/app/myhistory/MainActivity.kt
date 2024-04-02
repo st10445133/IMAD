@@ -23,6 +23,10 @@ class MainActivity : AppCompatActivity() {
         btnGenerate.setOnClickListener {
             val age = etAge.toString().toInt()
 
+            //Code Attribution
+            //
+
+
             //When user input matches the values in the case statement
             //information on historic figures will be displayed
 
@@ -75,11 +79,7 @@ class MainActivity : AppCompatActivity() {
                 else -> {tvResult.text = "There is no historic figure with that age in our database," +
                                         "please re-enter."
                 }
-                //CODE ATTRIBUTION
-                //
-                //
-                //
-                //
+
             }
 
 
