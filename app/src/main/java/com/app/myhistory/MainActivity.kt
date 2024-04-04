@@ -20,6 +20,12 @@ class MainActivity : AppCompatActivity() {
             etAge.clear()
         }
 
+        // Code attribution
+        // This method was taken from stack overflow
+        //https://stackoverflow.com/questions/53138172/how-to-implement-switch-case-statement-in-kotlin
+        //Watercayman
+        //https://stackoverflow.com/users/2920381/watercayman
+
         btnGenerate.setOnClickListener {
             val age = etAge.toString().toInt()
 
